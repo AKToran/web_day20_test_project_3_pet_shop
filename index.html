@@ -27,6 +27,7 @@
           colors: {
             clifford: '#da373d',
             cat: '#F9DF8A',
+            primary: '#FFF9F4',
 
           },
           fontFamily: {
@@ -41,7 +42,7 @@
 
 <body class="font-sora">
   <!-- header -->
-  <header class="bg-[#FFF9F4]">
+  <header class="bg-primary">
     <div class="navbar  py-4 container mx-auto">
       <div class="navbar-start">
         <img class="pr-4" src="images/logo-header.png" alt="">
@@ -72,12 +73,13 @@
   </header>
 
   <!-- main -->
-  <main class="mx-auto container space-y-8 md:space-y-20 lg:relative">
+  <main class="space-y-8 md:space-y-20">
     <!-- banner section-->
-    <section>
+    <section class="container mx-auto lg:relative">
       <div class="space-y-4 p-4 pt-8 z-10 md:p-0 relative lg:absolute lg:top-20">
         <h1 class="text-5xl font-lam">Pamper Your Pet, <br> Because They Deserve <br> the Best!</h1>
-        <p class="text-xl text-[#111111] lg:w-1/2">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails
+        <p class="text-xl text-[#111111] lg:w-1/2">Discover a world of treats, toys, and essentials handpicked for your
+          furry friends. Shop now and make tails
           wag with joy!</p>
         <a class="btn text-xl bg-yellow-300 outline-none">Find a Pet</a>
       </div>
@@ -86,7 +88,7 @@
     </section>
 
     <!-- categories section  -->
-    <section class="p-4 md:p-0">
+    <section class="container mx-auto p-4 md:p-0">
       <h2 class="font-lam text-4xl">Browse by Categories</h2>
       <!-- all cards div -->
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-6  my-8">
@@ -142,7 +144,130 @@
     </section>
 
     <!-- trending products section -->
+    <section class="bg-primary">
 
+      <!-- trending product cards -->
+      <div class="container mx-auto py-4 md:py-16  px-4 md:px-0">
+        <h2 class="font-lam text-4xl pb-8">Trending Pet Products</h2>
+        <!-- all trending cards div -->
+        <div class="grid grid-cols-2 grid-rows-8 lg:grid-cols-5 lg:grid-rows-3 gap-4">
+          <!-- big card here -->
+          <div class="row-span-4 md:row-span-3 col-span-2 bg-cat rounded-lg relative">
+            <div class="relative p-12 space-y-4">
+              <h2 class="font-lam text-4xl">T-Shirt For Cats</h2>
+              <p> WAIT!! Why is the cat cartoon image <br> is of a DOG?!</p>
+              <button class="btn">Shop Now</button>
+            </div>
+            <div class="absolute right-0 bottom-0">
+              <img src="images/cute-pet-small.png" alt="">
+            </div>
+
+          </div>
+
+          <!-- small cards -->
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/bird-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Brush</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/rabbit-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Litter</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/fish-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Sock</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/pet-couch.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Mask</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/pet-couch.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Shoe</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/rabbit-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Food</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/fish-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Food</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+          <div class="bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 flex items-center gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/bird-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
+              <h4 class="font-lam text-xl">Pet Toy</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+          <!-- last card -->
+          <div class="hidden bg-white border-2 rounded-lg border-gray-200 p-2 md:p-4 md:flex gap-2 md:gap-4">
+            <div class="bg-primary w-20 h-20 rounded-lg flex items-center justify-center">
+              <img src="images/dog-cartoon.png" alt="">
+            </div>
+            <div>
+              <p><i class="text-amber-400 fa-solid fa-star"></i> 0.0</p>
+              <h4 class="font-lam text-xl">Dog Leash</h4>
+              <p>$29.99</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
 
   </main>
 
