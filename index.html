@@ -26,7 +26,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            primary: '#f3f3f3',
+            cat: '#F9DF8A',
 
           },
           fontFamily: {
@@ -72,7 +72,7 @@
   </header>
 
   <!-- main -->
-  <main class="mx-auto container lg:relative">
+  <main class="mx-auto container space-y-8 md:space-y-20 lg:relative">
     <!-- banner section-->
     <section>
       <div class="space-y-4 p-4 pt-8 z-10 md:p-0 relative lg:absolute lg:top-20">
@@ -81,11 +81,67 @@
           wag with joy!</p>
         <a class="btn text-xl bg-yellow-300 outline-none">Find a Pet</a>
       </div>
-
+      <!-- banner cat here -->
       <div class="-mt-32 z-0 md:-mt-0 relative"><img src="images/cat-big.png" alt=""></div>
     </section>
 
+    <!-- categories section  -->
+    <section class="p-4 md:p-0">
+      <h2 class="font-lam text-4xl">Browse by Categories</h2>
+      <!-- all cards div -->
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-6  my-8">
+        <!-- card -->
+        <div class="py-9 bg-cat rounded-xl text-center items-center justify-center flex flex-col space-y-2">
+          <div class="h-24 bg-white w-24 rounded-full flex items-center justify-center">
+            <img src="images/cat-cartoon.png" alt="">
+          </div>
+          <h4 class="font-lam text-xl">Cat</h4>
+          <p class="text-lg">9 Items</p>
+        </div>
+        <!-- card 2-->
+        <div class="py-9 bg-cat rounded-xl text-center items-center justify-center flex flex-col space-y-2">
+          <div class="h-24 bg-white w-24 rounded-full flex items-center justify-center">
+            <img src="images/fish-cartoon.png" alt="">
+          </div>
+          <h4 class="font-lam text-xl">Fish</h4>
+          <p class="text-lg">7 Items</p>
+        </div>
+        <!-- card -->
+        <div class="py-9 bg-cat rounded-xl text-center items-center justify-center flex flex-col space-y-2">
+          <div class="h-24 bg-white w-24 rounded-full flex items-center justify-center">
+            <img src="images/dog-cartoon.png" alt="">
+          </div>
+          <h4 class="font-lam text-xl">Dog</h4>
+          <p class="text-lg">0 Items</p>
+        </div>
+        <!-- card 4-->
+        <div class="py-9 bg-cat rounded-xl text-center items-center justify-center flex flex-col space-y-2">
+          <div class="h-24 bg-white w-24 rounded-full flex items-center justify-center">
+            <img src="images/bird-cartoon.png" alt="">
+          </div>
+          <h4 class="font-lam text-xl">Bird</h4>
+          <p class="text-lg">8 Items</p>
+        </div>
+        <!-- card -->
+        <div class="py-9 bg-cat rounded-xl text-center items-center justify-center flex flex-col space-y-2">
+          <div class="h-24 bg-white w-24 rounded-full flex items-center justify-center">
+            <img src="images/mouse-cartoon.png" alt="">
+          </div>
+          <h4 class="font-lam text-xl">Rat</h4>
+          <p class="text-lg">0 Items</p>
+        </div>
+        <!-- card -->
+        <div class="py-9 bg-cat rounded-xl text-center items-center justify-center flex flex-col space-y-2">
+          <div class="h-24 bg-white w-24 rounded-full flex items-center justify-center">
+            <img src="images/rabbit-cartoon.png" alt="">
+          </div>
+          <h4 class="font-lam text-xl">Rabbit</h4>
+          <p class="text-lg">6 Items</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- trending products section -->
 
 
   </main>
