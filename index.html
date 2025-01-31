@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pets Here</title>
+  <link rel="shortcut icon" href="images/logo-header.png" type="image/x-icon">
   <!-- daisy ui cdns -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -29,8 +30,8 @@
 
           },
           fontFamily: {
-            lam:['ADLaM Display', 'serif'],
-            sora :['Sora', 'serif'],
+            lam: ['ADLaM Display', 'serif'],
+            sora: ['Sora', 'serif'],
           },
         },
       },
@@ -41,9 +42,9 @@
 <body class="font-sora">
   <!-- header -->
   <header class="bg-[#FFF9F4]">
-    <div class="navbar  p-4 container mx-auto">
+    <div class="navbar  py-4 container mx-auto">
       <div class="navbar-start">
-        <img class="" src="images/logo-header.png" alt="">
+        <img class="pr-4" src="images/logo-header.png" alt="">
         <h3 class="text-3xl hidden md:inline-block font-semibold">Browse<span class="text-yellow-300">4</span>Pets</h3>
       </div>
       <div class="navbar-center hidden lg:flex">
@@ -67,11 +68,25 @@
         </div>
       </div>
     </div>
-    <hr >
+    <hr>
   </header>
 
   <!-- main -->
-  <main>
+  <main class="mx-auto container lg:relative">
+    <!-- banner section-->
+    <section>
+      <div class="space-y-4 p-4 pt-8 z-10 md:p-0 relative lg:absolute lg:top-20">
+        <h1 class="text-5xl font-lam">Pamper Your Pet, <br> Because They Deserve <br> the Best!</h1>
+        <p class="text-xl text-[#111111] lg:w-1/2">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails
+          wag with joy!</p>
+        <a class="btn text-xl bg-yellow-300 outline-none">Find a Pet</a>
+      </div>
+
+      <div class="-mt-32 z-0 md:-mt-0 relative"><img src="images/cat-big.png" alt=""></div>
+    </section>
+
+
+
 
   </main>
 
