@@ -97,7 +97,7 @@
         <a class="btn text-xl bg-yellow-300 outline-none">Find a Pet</a>
       </div>
       <!-- candy for cat -->
-      <div class="hidden lg:block absolute z-10 lg:bottom-2/3 lg:right-[360px] animate-bounce">
+      <div class="block absolute -z-20 lg:z-10 right-0 bottom-32 lg:bottom-2/3 lg:right-[360px] animate-bounce">
         <div
           class="w-20 h-20 shadow-xl shadow-fuchsia-500 bg-yellow-400 rounded-full flex items-center justify-center border-4 border-fuchsia-600">
           <hr class="border-yellow-400 p-7 rounded-full absolute border-8 w-16">
@@ -196,7 +196,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Brush</h4>
-              <p>$29.99</p>
+              <p>$19.99</p>
             </div>
           </div>
 
@@ -207,7 +207,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Litter</h4>
-              <p>$29.99</p>
+              <p>$39.99</p>
             </div>
           </div>
 
@@ -218,7 +218,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Sock</h4>
-              <p>$29.99</p>
+              <p>$9.99</p>
             </div>
           </div>
 
@@ -229,7 +229,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Mask</h4>
-              <p>$29.99</p>
+              <p>$9.99</p>
             </div>
           </div>
 
@@ -240,7 +240,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Shoe</h4>
-              <p>$29.99</p>
+              <p>$9.99</p>
             </div>
           </div>
 
@@ -251,7 +251,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Food</h4>
-              <p>$29.99</p>
+              <p>$9.99</p>
             </div>
           </div>
 
@@ -262,7 +262,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Food</h4>
-              <p>$29.99</p>
+              <p>$9.99</p>
             </div>
           </div>
 
@@ -273,7 +273,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 5.0</p>
               <h4 class="font-lam text-xl">Pet Toy</h4>
-              <p>$29.99</p>
+              <p>$9.99</p>
             </div>
           </div>
           <!-- last card -->
@@ -284,7 +284,7 @@
             <div>
               <p><i class="text-amber-400 fa-solid fa-star"></i> 0.0</p>
               <h4 class="font-lam text-xl">Dog Leash</h4>
-              <p>$29.99</p>
+              <p>$99.99</p>
             </div>
           </div>
 
@@ -316,7 +316,7 @@
       <div class="flex flex-col md:flex-row gap-0 md:gap-8 h-auto lg:h-[480px]">
         <!-- first card -->
         <div
-          class="m-4 md:m-0 md:flex items-center justify-between rounded-2xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
+          class="hover:cursor-pointer m-4 md:m-0 md:flex items-center justify-between rounded-2xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
           <div class="p-8 md:p-20 pr-4 space-y-4">
             <p class="hidden md:inline font-semibold text-xl">Under Price</p>
             <h2 class="font-lam text-3xl">Pet Grooming Mitt</h2>
@@ -329,7 +329,7 @@
         </div>
 
         <!-- second card -->
-        <div class="m-4 md:m-0 relative bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] flex-1 rounded-2xl">
+        <div class="hover:cursor-pointer m-4 md:m-0 relative bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] flex-1 rounded-2xl">
           <div class="relative p-14 space-y-4 z-10">
             <h2 class="font-lam text-3xl">Toys for Cats</h2>
             <h1 class="text-5xl md:text-6xl font-semibold text-amber-400">$4.99</h1>
@@ -382,9 +382,9 @@
       <!-- second col -->
       <div class="lg:flex justify-center">
         <ul class="text-xl font-semibold space-y-6">
-          <li><a>Find a Pet</a></li>
-          <li><a>Breeds</a></li>
-          <li><a>Contact Us</a></li>
+          <li class="hover:cursor-pointer "><a>Find a Pet</a></li>
+          <li class="hover:cursor-pointer "><a>Breeds</a></li>
+          <li class="hover:cursor-pointer "><a>Contact Us</a></li>
         </ul>
       </div>
 
@@ -393,10 +393,10 @@
         <div>
           <h3 class="text-xl font-semibold pb-2">Follow us</h3>
           <div class="space-x-4 text-2xl">
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
+            <i class="hover:cursor-wait fa-brands fa-tiktok"></i>
+            <i class="hover:cursor-wait fa-brands fa-instagram"></i>
+            <i class="hover:cursor-wait fa-brands fa-twitter"></i>
+            <i class="hover:cursor-wait fa-brands fa-youtube"></i>
           </div>
         </div>
       </div>
