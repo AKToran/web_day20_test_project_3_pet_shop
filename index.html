@@ -85,8 +85,9 @@
         <a class="btn text-xl bg-yellow-300 outline-none">Find a Pet</a>
       </div>
       <!-- candy for cat -->
-      <div class="absolute z-10 -bottom-28 right-1/3 lg:bottom-2/3 lg:right-1/3 animate-bounce">
-        <div class="w-20 h-20 shadow-xl shadow-fuchsia-500 bg-yellow-400 rounded-full flex items-center justify-center border-4 border-fuchsia-600">
+      <div class="hidden lg:block absolute z-10 -bottom-28 right-1/3 lg:bottom-2/3 lg:right-1/3 animate-bounce">
+        <div
+          class="w-20 h-20 shadow-xl shadow-fuchsia-500 bg-yellow-400 rounded-full flex items-center justify-center border-4 border-fuchsia-600">
           <hr class="border-yellow-400 p-7 rounded-full absolute border-8 w-16">
           <hr class="border-orange-400 absolute border-8 w-16">
           <hr class="rotate-45 absolute border-8 border-green-400 w-16">
@@ -95,7 +96,7 @@
         </div>
       </div>
       <!-- banner cat here -->
-      <div class="-mt-32 z-0 md:-mt-0 relative"><img src="images/cat-big.png" alt=""></div>
+      <div class="hover:animate-pulse -mt-32 z-0 md:-mt-0 relative"><img src="images/cat-big.png" alt=""></div>
     </section>
 
     <!-- categories section  -->
@@ -284,9 +285,10 @@
     <section class="container mx-auto">
       <h2 class="font-lam text-4xl pb-8 pl-4">Everyday Low Price</h2>
       <!-- flex parent here -->
-      <div class="flex flex-col md:flex-row gap-0 md:gap-8 h-[480px]">
+      <div class="flex flex-col md:flex-row gap-0 md:gap-8 h-auto lg:h-[480px]">
         <!-- first card -->
-        <div class="m-4 md:m-0 md:flex items-center justify-between rounded-2xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
+        <div
+          class="m-4 md:m-0 md:flex items-center justify-between rounded-2xl bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]">
           <div class="p-8 md:p-20 pr-4 space-y-4">
             <p class="hidden md:inline font-semibold text-xl">Under Price</p>
             <h2 class="font-lam text-3xl">Pet Grooming Mitt</h2>
@@ -305,20 +307,72 @@
             <h1 class="text-5xl md:text-6xl font-semibold text-amber-400">$4.99</h1>
           </div>
           <div class="md:absolute right-0 bottom-0 ml-20">
-            <img  src="images/cute-pet-mid.png" alt="">
+            <img src="images/cute-pet-mid.png" alt="">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- dljkf -->
-    <section>
-      
+    <!-- pawsome news section -->
+    <section class="mx-auto container p-4 pt-0 md:p-0">
+      <div class="bg-primary relative z-10 rounded-xl p-6 pt-0 lg:flex lg:items-center lg:justify-center">
+        <!-- img div -->
+        <div class="flex items-center justify-center pb-8">
+          <img class="lg:w-[350px]" src="images/cute-pet-small.png" alt="">
+        </div>
+        <!-- text div -->
+        <div class="text-center lg:text-left space-y-4 lg:space-y-8">
+          <h2 class="font-lam text-2xl lg:text-4xl">Get Pawsome News</h2>
+          <p class="text-lg">Exclusive training tips, ticks, product deals and more.</p>
+          <input class="w-full rounded-sm text-lg p-2" type="email" placeholder="Enter your Email" name="" id=""> <br>
+          <a class="btn lg:text-xl bg-yellow-300 border-none">Subscribe</a>
+
+        </div>
+      </div>
     </section>
   </main>
 
   <!-- footer -->
-  <footer>
+  <footer class="bg-cat -mt-[280px]">
+    <div class="h-[280px]">
+    </div>
+
+    <!-- footer content -->
+    <div class="grid lg:grid-cols-3 container mx-auto py-20 px-4 lg:px-0 lg:py-40 space-y-6">
+      <!-- first col -->
+      <div>
+        <!-- title -->
+        <div class="flex items-center gap-4">
+          <img src="images/logo-footer.png" alt="">
+          <h3 class="text-3xl font-semibold">Browse<span class="text-yellow-500">4</span>Pets</h3>
+        </div>
+        <!-- description -->
+        <div class="text-xl opacity-70 pt-6">
+          <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+      </div>
+      <!-- second col -->
+      <div class="lg:flex justify-center">
+        <ul class="text-xl font-semibold space-y-6">
+          <li><a>Find a Pet</a></li>
+          <li><a>Breeds</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- third col -->
+      <div class="lg:flex lg:flex-col justify-end items-end">
+        <div>
+          <h3 class="text-xl font-semibold pb-2">Follow us</h3>
+          <div class="space-x-4 text-2xl">
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </footer>
 </body>
